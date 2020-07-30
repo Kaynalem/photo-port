@@ -19,7 +19,7 @@ function Nav() {
         console.log(`${name} clicked`)
     }
     return (
-        <header>
+        <header className="flex-row"> 
             <h2>
                 <a data-testid="link" href="/">
                 <span role="img" aria-label="camera"> 📸</span> Oh Snap!
@@ -52,3 +52,4 @@ function Nav() {
 }
 
 export default Nav;
+// added className="flex-row" to header
